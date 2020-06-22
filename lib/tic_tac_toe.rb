@@ -127,7 +127,11 @@ end
 
 def play
   count=0
+<<<<<<< HEAD
   while !over? && !draw? && count<=9
+=======
+  while !over?
+>>>>>>> 1a075e234480878aab64052ccde25ce76cc6cbf7
     turn
     count+=1
     puts count
